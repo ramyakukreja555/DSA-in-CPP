@@ -9,7 +9,7 @@ int main(){
         int u,v,wt;
         cin>>u>>v>>wt;
         adj[u].push_back({v,wt});
-        adj[v].push_back({v,wt});
+        adj[v].push_back({u,wt});
     }
     return 0;
 
